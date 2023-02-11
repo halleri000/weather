@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta name="description" content="Generic Weather App" />
+    <meta name="author" content="Eric" />
+
+    <!-- Title Page-->
+    <title>Weather App</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <form class="citySearch">
+                <label class="citySearch" for="userInput"> Search</label>
+                <input class="citySearch" id="cityInput" name="userInput" type="text" value=""
+                    placeholder="Search for city" />
+                <button class="citySearch" id="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main id="main">
+        <div id="mainBlock">
+            <h1>Weather</h1>
+            <h5 id="location"></h5>
+            <div id="tempBlock"></div>
+            <img id="icon" />
+            <div id="condition"></div>
+        </div>
+    </main>
+    <footer>
+        <div id="linkBack">
+            Powered by
+            <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+            <a href="https://www.weatherapi.com/" title="Free Weather API">
+                <img id="link" src="//cdn.weatherapi.com/v4/images/weatherapi_logo.png"
+                    alt="Weather data by WeatherAPI.com" border="0" />
+            </a>
+        </div>
+    </footer>
+    <!-- append your code to this element -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

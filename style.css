@@ -1,0 +1,61 @@
+/*  Put your CSS Here */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 11px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+
+#tempBlock {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+
+#condition {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid black;
+    width: 100%;
+}
+
+
+#linkBack {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+#link {
+    width: 100px;
+    height: 25px;
+}
